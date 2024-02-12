@@ -7,3 +7,25 @@ Lab 0 has some information specific to students taking the research class at Pur
 Lab 1 is mostly Alfredo's PyTorch notebook with some added explanations here and there to try and bridge the knowledge gap.
 
 Lab x is the spiral classifier adapted from Alfredo's PyTorch minicouse. However, I have greatly expanded upon this as I think this is a very nice, simple example that is non-trivial to get very high generalization with a deep neural network and therefore excellent for educating newcomers to machine learning on the limitations and the challenges to using deep learning effectively.
+
+# Connecting to Jupyter Lab/Notebook
+First <br>
+```
+ssh <user_name>@scholar.rcac.purdue.edu -L <port_number>:localhost:<port_number>
+```
+The default port is 8888, however, sometimes it will fail if it is occupied locally. Try any other number above 8000. <br>
+For example:
+```
+ssh he614@scholar.rcac.purdue.edu -L 8868:localhost:8868
+```
+
+After logging in, do <br>
+```
+module load anaconda
+```
+```
+jupyter lab --port 8868
+```
+Then copy the url to your favorite browser. It's the best to practice to connect to a remote server via ssh-keys: https://www.rcac.purdue.edu/knowledge/scholar/accounts/login/sshkeys. <br>
+
+-Ling 
