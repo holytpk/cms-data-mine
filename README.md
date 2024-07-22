@@ -30,7 +30,7 @@ Then copy the url to your favorite browser. It's the best to practice to connect
 
 -Ling 
 
-# Environment Comments:
+# Conda Environment Comments:
 
 If you run into unsupported software dependency issues, try this: <br>
 Go to your scholar notebook terminal, do: <br>
@@ -41,7 +41,7 @@ then register this kernel to jupyter: <br>
 ```python -m ipykernel install --user --name=Coffea-Ling``` <br>
 Refresh your notebook then you will see this new kernel with customized conda packages <br>
 
-For those who don't have access to scholar yet ... here's a solution: <br>
+For those who don't have access to scholar yet ... here's a solution to get the HW done: <br>
 1. Go to Google Colab <br>
 2. Download HW3.ipynb from Github (https://github.com/holytpk/cms-machinelearning-notebooks/blob/master/HW/HW3.ipynb) and upload it to Colab <br>
 3. Install the missing modules <br>
@@ -51,6 +51,11 @@ For those who don't have access to scholar yet ... here's a solution: <br>
 !pip3 install uproot
 ```
 4. Get this input.root file and upload it to the session, then change the path of the input file. Make sure the 638M file is completely uploaded before you run the uproot.open command.
+5. Note that you will need to reupload the input.root file once the session expires which is annoying. Unless you find out a way to deal with this otherwise this approach is not recommended. 
+
+# For Data Mine TAs
+1. If you want to create a shareable environment like what I did up there. Follow option 3 in: https://analysis-facility.physics.purdue.edu/en/latest/guide-conda.html. Then use `/depot/cms/kernels/env-python3.yml` as your starting configuration for the conda environment.  
+2. Make sure that your group(s) have at least one informal showcase of their progress before the poster symposium besides the 4 research briefings per semester. 
 
 # Common Analysis Tools: https://scikit-hep.org/
 1. Awkwardy Array: https://awkward-array.org/doc/main/
