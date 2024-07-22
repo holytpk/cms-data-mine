@@ -30,7 +30,7 @@ Then copy the url to your favorite browser. It's the best to practice to connect
 
 -Ling 
 
-# Other Comments:
+# Environment Comments:
 
 If you run into unsupported software dependency issues, try this: <br>
 Go to your scholar notebook terminal, do: <br>
@@ -51,3 +51,11 @@ For those who don't have access to scholar yet ... here's a solution: <br>
 !pip3 install uproot
 ```
 4. Get this input.root file and upload it to the session, then change the path of the input file. Make sure the 638M file is completely uploaded before you run the uproot.open command.
+
+# Common Analysis Tools: https://scikit-hep.org/
+1. Awkwardy Array: https://awkward-array.org/doc/main/
+2. Uproot: https://uproot.readthedocs.io/en/latest/basic.html
+3. NanoAODSchema: https://coffeateam.github.io/coffea/notebooks/nanoevents.html
+4. Hist: https://github.com/scikit-hep/hist
+5. Matplotlib for HEP: https://github.com/scikit-hep/mplhep
+6. Vector: https://github.com/scikit-hep/vector
