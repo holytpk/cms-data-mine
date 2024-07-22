@@ -1,5 +1,5 @@
 # cms-machinelearning-notebooks
-These are notebooks that our PhD candidate Andrew Wildridge created to teach incoming freshman/undergraduates machine learning for performing research with the Compact Muon Solenoid experiment at Purdue University. 
+These are notebooks that our PhD candidate Andrew Wildridge and Lingqiang He created to teach incoming freshman/undergraduates machine learning for performing research with the Compact Muon Solenoid experiment at Purdue University. 
 
 Some of this has been inspired from: https://github.com/Atcold/pytorch-Deep-Learning, Thank you Alfredo for this amazing resource and being one of the first people to truly introduce me to machine learning. However, a lot of the mathematics and details in this course I felt were assumed. Since this is for freshman I decided to create my own resource to try and build the foundations of machine learning from the ground up in a nice and conversational approach through Jupyter notebooks. Hopefully others will find these useful.
 
